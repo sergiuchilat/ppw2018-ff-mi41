@@ -1,0 +1,34 @@
+.element{
+	border: 1px solid red;
+	width: 150px;
+	height: 150px;
+	background: silver;
+}
+
+.relative{
+	position: relative;
+	background: red;
+	top: -30px;
+	left: 30px;
+}
+
+.absolute{
+	position: absolute;
+	background: green;
+	top: 30px;
+	left: 30px;
+}
+
+.fixed{
+	position: fixed;
+	background: blue;
+	top: 30px;
+	left: 30px;
+}
+
+.fixedRB{
+	position: fixed;
+	background: cyan;
+	bottom: 30px;
+	right: 30px;	
+}
