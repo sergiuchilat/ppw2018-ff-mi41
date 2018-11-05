@@ -1,0 +1,10 @@
+body, html{
+	height: 100%;
+}
+.element{
+	border: 1px solid red;
+}
+
+.border-green{
+	border: 1px solid green;
+}
