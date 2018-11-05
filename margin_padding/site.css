@@ -1,0 +1,21 @@
+body{
+	font-size: 0;
+}
+div{
+	background: green;
+	color: yellow;
+	border: 1px solid #000000;
+	width: 50px;
+	height: 20px;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+}
+
+.c1{
+	margin: 10px;
+}
+
+.c2{
+	padding: 10px;
+}
