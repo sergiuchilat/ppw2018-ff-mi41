@@ -84,10 +84,6 @@ a.active{
 }
 
 
-ul.photo-galery{
-
-}
-
 ul.photo-galery li{
 	border: 1px solid silver;
 	display: inline-block;
@@ -102,4 +98,53 @@ ul.photo-galery li img{
 	height: 100%;
 }
 
+#articles article{
+	border: 1px solid silver;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-bottom: 10px;
+	padding: 5px;
+}
 
+#articles article img, #articles article div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#articles article img{
+	width: 20%;
+}
+
+#articles article h2{
+	color: #4f7dc6;
+}
+
+#articles article a{
+	color: #4f7dc6;
+}
+
+#articles article div{
+	width: 79%;
+}
+
+
+
+ul.video-galery li{
+	border: 1px solid silver;
+	display: inline-block;
+	width: 48%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+ul.video-galery li img{
+	height: 100%;
+}
+
+
+#contact .contacts, #contact .feedback-form{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+}
