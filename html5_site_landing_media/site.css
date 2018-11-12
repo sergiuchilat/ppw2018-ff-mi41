@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+aside, footer{
+	border: 1px solid red;
+}
+
+header{
+	background: blue;
+	height: 150px;
+	text-align: center;
+	color: white;
+	font-size: 56px;
+}
+
+nav{
+	background: yellow;
+	margin-bottom: 5px; 
+}
+
+nav a{
+	background: cyan;
+	width: 17%;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 1%;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+nav a:hover{
+	background: lightblue;
+}
+
+aside, section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside{
+	background: violet;
+	width: 15%;
+	text-align: center;
+	height: 200px;
+}
+
+section header{
+	background: violet;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	height: auto;
+}
+
+section{
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+	border-radius: 5px;
+}
+
+footer{
+	background: red;
+	margin-top: 5px;
+	text-align: center;
+	color: white;
+	/* height: 50px;
+	line-height: 50px;
+	vertical-align: middle; */
+
+	padding: 15px;
+}
+
+a.active{
+	background: green;
+}
+
+
+ul.photo-galery li{
+	border: 1px solid silver;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+ul.photo-galery li img{
+	height: 100%;
+}
+
+#articles article{
+	border: 1px solid silver;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#articles article img, #articles article div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#articles article img{
+	width: 20%;
+}
+
+#articles article h2{
+	color: #4f7dc6;
+}
+
+#articles article a{
+	color: #4f7dc6;
+}
+
+#articles article div{
+	width: 79%;
+}
+
+ul.video-galery{
+	padding: 0;
+}
+
+ul.video-galery li{
+	border: 1px solid silver;
+	display: inline-block;
+	width: 48%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+ul.video-galery li img{
+	height: 100%;
+}
+
+
+#contact .contacts, #contact .feedback-form{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+}
+
+.to_top{
+	display: block;
+	text-align: right;
+}
+
+.to_top img{
+	width: 50px;
+}

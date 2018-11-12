@@ -1,0 +1,23 @@
+@media screen and (max-device-width: 460px){
+	nav a{
+		display: block;
+		width: 100%;
+	}
+
+	#articles article img{
+		display: block;
+		width: 100%;
+	}
+
+	#articles article div{
+		width: 100%;
+	}
+
+	ul.video-galery li{
+		width: 100%;
+	}
+
+	#contact .contacts, #contact .feedback-form{
+		display: block;
+	}
+}
