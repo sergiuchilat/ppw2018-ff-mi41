@@ -1,0 +1,24 @@
+.element{
+	background: red;
+	border: 1px solid green;
+	width: 210px;
+	height: 200px;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	display: inline-block;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px){
+	.element{
+		width: 48%;
+		background: green;
+	}
+}
+
+@media screen and (max-width:499px) {
+	.element{
+		width: 100%;
+		background: yellow;
+	}
+}
